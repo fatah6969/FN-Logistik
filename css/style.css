@@ -9611,3 +9611,17 @@ p,
 .btn-custom:hover {
     transform: scale(1.03);
 }
+
+.client-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* tinggi box biar seragam */
+    padding: 10px;
+}
+
+.client-logo img {
+    max-width: 100%;
+    max-height: 80px;
+    object-fit: contain;
+}
