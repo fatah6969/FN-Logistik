@@ -9654,3 +9654,10 @@ p,
     object-fit: cover; /* gambar menutupi seluruh area */
     border-radius: 8px; /* opsional, sudut membulat */
 }
+.feature-img {
+    width: 100%;
+    height: 100%;      /* isi penuh tinggi container */
+    object-fit: cover;  /* menutupi kotak tanpa merusak rasio */
+    border-radius: 8px; /* opsional, sudut membulat */
+}
+
