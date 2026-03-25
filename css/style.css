@@ -9647,3 +9647,10 @@ p,
     font-weight: 900; /* sangat tebal */
     color: #000;      /* hitam pekat */
 }
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* gambar menutupi seluruh area */
+    border-radius: 8px; /* opsional, sudut membulat */
+}
