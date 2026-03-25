@@ -9642,3 +9642,8 @@ p,
   border-radius: 999px;             /* bentuk pill */
   gap: 8px;                         /* jarak icon & teks */
 }
+
+.bold-black {
+    font-weight: 900; /* sangat tebal */
+    color: #000;      /* hitam pekat */
+}
