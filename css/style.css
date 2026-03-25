@@ -9632,3 +9632,13 @@ p,
     max-height: 80px;
     object-fit: contain;
 }
+
+.service-box {
+  display: inline-flex;              /* ikut isi */
+  align-items: center;
+  justify-content: center;
+  background: #1965a3;
+  padding: 8px 16px;                /* lebih fleksibel */
+  border-radius: 999px;             /* bentuk pill */
+  gap: 8px;                         /* jarak icon & teks */
+}
