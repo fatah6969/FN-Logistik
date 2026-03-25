@@ -9533,7 +9533,7 @@ p,
 .navbar-light .navbar-nav .nav-link.active {
   color: #FFFFFF;
   background: #1965a3;
-  padding: 12px 10px;     /* ukuran kotak */
+  padding: 5px 10px;     /* ukuran kotak */
   border-radius: 16px;     /* bentuk sudut */
 }
 
