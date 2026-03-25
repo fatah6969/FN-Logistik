@@ -9661,3 +9661,19 @@ p,
     border-radius: 8px; /* opsional, sudut membulat */
 }
 
+.contact-form, iframe {
+    border-radius: 15px; /* sudut membulat */
+}
+
+.contact-form {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15); /* bayangan halus */
+}
+iframe {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.contact-form {
+    padding: 40px; /* lebih lega */
+}
+
+
