@@ -71,7 +71,7 @@
                     <a href="index.html" class="nav-item nav-link">Home</a>
                     <a href="about.html" class="nav-item nav-link">About</a>
                     <a href="service.html" class="nav-item nav-link">Service</a>
-                    <a href="blog.html" class="nav-item nav-link active">Blog</a>
+                    <a href="blog.html" class="nav-item nav-link">Blog</a>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
                 <a href="https://htmlcodex.com/downloading/?item=1309" class="btn btn-primary py-2 px-4 d-none d-lg-block">Buy Pro Version</a>
@@ -295,6 +295,20 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+<script>
+    const currentLocation = window.location.pathname;
+    const menuItems = document.querySelectorAll('.nav-link');
+
+    menuItems.forEach(link => {
+        const linkPath = link.getAttribute('href');
+
+        if (currentLocation.includes(linkPath)) {
+            link.classList.add('active');
+        }
+    });
+</script>
+	
 </body>
 
 </html>
