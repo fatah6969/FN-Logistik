@@ -9571,3 +9571,43 @@ p,
     background-color: #1ebe5d;
     transform: scale(1.1);
 }
+
+
+.contact-form-custom .form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.textarea-icon {
+    top: 20px;
+}
+
+.custom-input {
+    padding-left: 45px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s;
+}
+
+.custom-input:focus {
+    box-shadow: 0 0 8px rgba(0,123,255,0.3);
+    outline: none;
+}
+
+.btn-custom {
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    transform: scale(1.03);
+}
