@@ -9533,8 +9533,8 @@ p,
 .navbar-light .navbar-nav .nav-link.active {
   color: #FFFFFF;
   background: #1965a3;
-  padding: 12px 20px;     /* ukuran kotak */
-  border-radius: 6px;     /* bentuk sudut */
+  padding: 12px 10px;     /* ukuran kotak */
+  border-radius: 16px;     /* bentuk sudut */
 }
 
 @media (max-width: 991.98px) {
