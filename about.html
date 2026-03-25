@@ -24,26 +24,34 @@
 
 <body>
     
-    <!-- Navbar Start -->
-    <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-            <a href="index.html" class="navbar-brand ml-lg-3 d-flex align-items-center">
-  		  <img src="img/logo.png" height="100" class="mr-2">
- 		   <h1 class="m-0 display-5 text-primary">FN LOGISTIK</h1>
-	   </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-                <div class="navbar-nav m-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Beranda</a>
-                    <a href="about.html" class="nav-item nav-link">Tentang Kami</a>
-                    <a href="service.html" class="nav-item nav-link">Layanan</a>
-                    <a href="blog.html" class="nav-item nav-link">Klien</a>
-                    <a href="contact.html" class="nav-item nav-link">Kontak</a>
-        </nav>
-    </div>
-    <!-- Navbar End -->
+   <!-- Navbar Start -->
+<div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <!-- Logo & Brand -->
+        <a href="index.html" class="navbar-brand ml-lg-3 d-flex align-items-center">
+            <img src="img/logo.png" height="100" class="mr-2">
+            <h1 class="m-0 display-5 text-primary">FN LOGISTIK</h1>
+        </a>
+
+        <!-- Hamburger Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu Links -->
+        <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="index.html" class="nav-item nav-link">Beranda</a>
+                <a href="about.html" class="nav-item nav-link">Tentang Kami</a>
+                <a href="service.html" class="nav-item nav-link">Layanan</a>
+                <a href="blog.html" class="nav-item nav-link">Klien</a>
+                <a href="contact.html" class="nav-item nav-link">Kontak</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- Navbar End -->
 
   <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid mb-5">
@@ -130,7 +138,14 @@
         }
     });
 </script>
-			
+
+<!-- jQuery (Bootstrap 4 butuh ini) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/js/bootstrap.min.js"></script>
+	
 </body>
 
 </html>
